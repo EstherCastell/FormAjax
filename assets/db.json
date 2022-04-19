@@ -1,0 +1,90 @@
+{
+  "vehiculos": [
+    {
+      "id": 1,
+      "vType": "Coche",
+      "brand": "Opel",
+      "model": "Corsa",
+      "galery": [
+        {
+          "Image": "2020-Opel-Corsa-red-exterior.jpg"
+        }
+      ]
+    },
+    {
+      "vType": "coche",
+      "brand": "ford",
+      "model": "mondeo",
+      "image": [
+        "2020-Opel-Corsa-red-exterior.jpg"
+      ],
+      "id": 2
+    },
+    {
+      "vType": "coche",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        "C:\\fakepath\\2020-Opel-Corsa-red-exterior.jpg"
+      ],
+      "id": 3
+    },
+    {
+      "vType": "car",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        {
+          "0": {},
+          "1": {}
+        }
+      ],
+      "id": 4
+    },
+    {
+      "vType": "car",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        {
+          "0": {},
+          "1": {}
+        }
+      ],
+      "id": 5
+    },
+    {
+      "vType": "car",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        {
+          "0": {},
+          "1": {}
+        }
+      ],
+      "id": 6
+    },
+    {
+      "vType": "car",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        {
+          "0": {},
+          "1": {}
+        }
+      ],
+      "id": 7
+    },
+    {
+      "vType": "car",
+      "brand": "seat",
+      "model": "ibiza",
+      "image": [
+        "C:\\fakepath\\525592.jpg"
+      ],
+      "id": 8
+    }
+  ]
+}

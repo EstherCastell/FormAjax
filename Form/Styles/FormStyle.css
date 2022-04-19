@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.create {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #f7862b;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background: #e27b27;
+}
+input[type="file"] {
+  display: none;
+}
+.files{
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  box-sizing: border-box;
+  outline: 0;
+  margin: 0 0 15px; 
+}
+.files-button:hover,.form button:active,.form button:focus {
+  background: #f7862b;
+  color: #FFFFFF;
+}
+.files-button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #d4d4d4;;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.none {
+  display: none;
+}
+
+ .select {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  position: relative;
+  width:92%;
+  overflow: hidden;
+  background: #f2f2f2;
+  padding: 10px;
+  margin: 0 0 15px;
+  cursor: pointer;
+  
+}
+  
+.select:before {
+    content: '';
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 5px 0 5px;
+    border-color: #f7862b transparent transparent transparent;
+    z-index: 5;
+    pointer-events: none;
+}
+  
+.select select {
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    appearance: none;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,9 @@
+@import "/Form/Styles/FormStyle.css";
+
+body {
+     background: linear-gradient(90deg,  rgb(248, 132, 65) 0%,  rgb(249, 183, 23));
+     
+    font-family: "Roboto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;      
+  }
